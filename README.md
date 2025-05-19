@@ -30,24 +30,27 @@
 
 WEB_LKP/
 ├── app/
-│ ├── components/
-│ │ ├── AboutSection.tsx
-│ │ ├── FAQSection.tsx
-│ │ ├── Footer.tsx
-│ │ ├── HeroSection.tsx
-│ │ ├── Navbar.tsx
-│ │ ├── Program_Section.tsx
-│ │ ├── TensorSection.tsx
-│ │ ├── TestimoniSection.tsx
-│ │ └── VisiMisiSection.tsx
-│ ├── globals.css
-│ ├── layout.tsx
-│ └── page.tsx
+│   ├── components/                # Semua komponen utama website
+│   │   ├── AboutSection.tsx          # Tentang Kami
+│   │   ├── FAQSection.tsx            # FAQ interaktif
+│   │   ├── Footer.tsx                # Footer dengan kontak & sosmed
+│   │   ├── HeroSection.tsx           # Bagian atas halaman
+│   │   ├── Navbar.tsx                # Navigasi utama
+│   │   ├── Program_Section.tsx       # Program yang ditawarkan
+│   │   ├── TensorSection.tsx         # (Sementara) Placeholder / tambahan
+│   │   ├── TestimoniSection.tsx      # Ulasan dari siswa
+│   │   └── VisiMisiSection.tsx       # Visi & Misi LKP
+│
+│   ├── globals.css               # Global style dengan Tailwind
+│   ├── layout.tsx               # Layout root untuk Next.js App Router
+│   └── page.tsx                 # Halaman utama website
+│
 ├── public/
-│ ├── logo.png
-│ ├── foto1.jpg
-│ └── profil.jpg
-├── tailwind.config.ts
-├── next.config.ts
-├── package.json
-└── README.md
+│   ├── logo.png                 # Logo LKP
+│   ├── foto1.jpg                # Gambar ilustrasi kegiatan
+│   └── profil.jpg               # Gambar profil tim / testimoni
+│
+├── tailwind.config.ts          # Konfigurasi TailwindCSS
+├── next.config.ts              # Konfigurasi Next.js
+├── package.json                # Dependency & script proyek
+└── README.md                   # Dokumentasi proyek
